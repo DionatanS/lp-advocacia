@@ -1,0 +1,17 @@
+.containerExperiences{
+    width: 100%;
+    background-color: #A8CBFF;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: auto;
+}
+.titleSectionExperiences{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}

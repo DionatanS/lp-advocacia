@@ -1,0 +1,82 @@
+.containerHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    position: relative;
+}
+.imgHero{
+    width: 100%;
+    opacity: 0.8;
+    height: 1100px;
+    @media (max-width: 1920px) {
+        height: 900px;
+    }
+}
+
+.contentHero{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgLogo{
+    margin-top: 50px;
+    width: 670px;
+    height: 196px;
+    z-index: 999;
+    margin-inline: auto;
+}
+.cointainerHeroText{
+    margin-top: 50px;
+    width: 950px;
+    height: 452px;
+    background: #00264C;
+    opacity: 0.9;
+    border-radius: 15px;
+    padding: 60 154 60 60;
+    display: flex;
+    flex-direction: column;
+}
+.subtituloHero{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding: 60px 150px 0px 60px;
+}
+.textHero{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;    
+    padding: 40px 150px 40px 60px;
+}
+.buttonFaleConosco{
+    width: 300px;
+    height: 50px;
+    background: #D5A55F;
+    border-radius: 8px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00264C;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    gap: 20px;
+}
+.destaque{
+    color: #D99228;
+}
+.bold{
+    font-weight: 800;
+}
