@@ -1,9 +1,8 @@
 .containerDifferential{
     max-width: 1366px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 128px;
 }
 .cardDifferential{
     font-family: 'Open Sans';
