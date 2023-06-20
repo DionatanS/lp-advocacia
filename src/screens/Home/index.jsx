@@ -1,3 +1,4 @@
+import About from "../../components/About";
 import Areas from "../../components/Areas";
 import Container from "../../components/Container";
 import Experiences from "../../components/Experiences";
@@ -9,6 +10,7 @@ export default function Home(){
             <Hero/>
             <Experiences/>
             <Areas/>
+            <About/>
         </Container>
     )
 }

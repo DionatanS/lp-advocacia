@@ -2,7 +2,6 @@ import styles from "../Acting/styles.module.css"
 export default function Acting({}){
     return(        
         <div className={styles.containerActing}>
-            <div className={styles.containerCardFlex}>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconSeriousDiseases.svg" alt="" />
                     <div>
@@ -24,8 +23,6 @@ export default function Acting({}){
                         <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>                
                 </div>
-            </div>
-            <div className={styles.containerCardFlex}>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconRural.svg" alt="" />
                     <div>
@@ -47,7 +44,6 @@ export default function Acting({}){
                         <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>                
                 </div>
-            </div>
         </div>
     )
 }
