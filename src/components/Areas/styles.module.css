@@ -1,0 +1,52 @@
+.containerAreas{
+    width: 100%;
+    padding-block: 90px;
+    display: flex;
+}
+.titleAreas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #D4A55F;
+}
+.titleCardAreas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    color: #000000;
+}
+.textCardAreas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #494949;
+}
+.containerCardsArea{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.btnScheduling{
+    margin-inline: auto;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #00264C;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #00264C;
+}

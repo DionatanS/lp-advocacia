@@ -1,0 +1,46 @@
+.containerActing{
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 70px;
+}
+.cardActing{
+    display: flex;
+    gap: 24px;
+    width: 325px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px solid #D4A55F;
+    padding-top: 50px;
+    padding-inline: 20px;
+}
+.iconCard{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.titleCardActing{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 45px;
+    /* identical to box height, or 180% */
+    color: #D4A55F;
+
+}
+.textCardActing{
+    font-family: 'Open Sans';
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.containerCardFlex{
+    display: flex;
+    justify-content: space-between;
+}
