@@ -1,4 +1,4 @@
-import styles from "../differential/styles.module.css"
+import styles from "../Differential/styles.module.css"
 export default function Differential({}){
     return(        
         <div className={styles.containerDifferential}>
