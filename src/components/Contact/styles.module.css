@@ -1,0 +1,28 @@
+.containerContact{
+    width: 100%;
+    padding-block: 120px;
+}
+.contentContact{
+    display: flex;
+    flex-direction: column;
+}
+.divContactInf{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.linkContact{
+    color: #494949;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}

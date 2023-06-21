@@ -1,0 +1,54 @@
+.containerAdress{
+    width: 100%;
+    background-color: #D4E5FF;
+    padding-block: 70px;
+    box-shadow: 0px 9px 28px 0px rgba(0, 0, 0, 0.25);
+}
+.titleAdress{
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #D4A55F;
+    text-align: center;
+    margin-bottom: 60px;
+    text-decoration: underline;    
+    text-underline-offset: 7px;
+
+}
+.contentAdress{
+    width: 100%;
+    display: flex;
+}
+.textAdress{
+    width: 75%;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #494949;
+    margin-bottom: 65px;
+}
+.divColum{
+    width: 50%;
+    height: 290px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.btnAdress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #00264C;
+    background: #00264C;
+    color: #fff;
+    gap: 20px;
+}
