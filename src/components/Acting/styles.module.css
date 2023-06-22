@@ -17,6 +17,9 @@
     border: 2px solid #D4A55F;
     padding-top: 50px;
     padding-inline: 20px;
+    @media (max-width: 1480px) {
+        width: 290px;
+    }
 }
 .iconCard{
     width: 50px;

@@ -6,42 +6,42 @@ export default function Acting({}){
                     <img className={styles.iconCard} src="/images/iconSeriousDiseases.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Doença Grave</h1>
-                        <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.aaaaaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaaa aaa</p>
+                        <p className={styles.textCardActing}> Benefício concedido a trabalhadores permanentemente incapacitados devido a uma doença grave.</p>
                     </div>                
                 </div>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconRetirement.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Aposentadoria</h1>
-                        <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className={styles.textCardActing}>Benefício que garante renda mensal após o término da vida profissional.</p>
                     </div>                
                 </div>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconAccident.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Acidente</h1>
-                        <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className={styles.textCardActing}>Benefício para trabalhadores incapacitados devido a acidentes de trabalho ou doenças ocupacionais</p>
                     </div>                
                 </div>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconRural.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Rural</h1>
-                        <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className={styles.textCardActing}>Benefício para trabalhadores do campo com base no tempo de trabalho rural e contribuição previdenciária específica.</p>
                     </div>                
                 </div>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconPublicServer.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Servidor Público</h1>
-                        <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className={styles.textCardActing}>Benefício vitalício para servidores estatutários ou celetistas com base no tempo de contribuição e critérios previdenciários específicos.</p>
                     </div>                
                 </div>
                 <div className={styles.cardActing}>
                     <img className={styles.iconCard} src="/images/iconDisables.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Invalidez</h1>
-                        <p className={styles.textCardActing}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className={styles.textCardActing}>Benefício concedido a trabalhadores que se encontram permanentemente incapazes de exercer suas atividades laborais devido a doença ou acidente.</p>
                     </div>                
                 </div>
         </div>
