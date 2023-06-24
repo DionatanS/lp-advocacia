@@ -29,12 +29,10 @@
         width: 320px;
      }
      @media (max-width: 920px) {
-        border-radius: 10px;
         width: 250px;
     }
 }
 .imgContact{
-    border-radius: 10px;
     @media (max-width: 1280px) {
         width: 500px;
     }

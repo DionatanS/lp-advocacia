@@ -15,7 +15,7 @@ export default function Differential({}){
             <div className={styles.cardDifferential}>
                 <h1 className={styles.emphasis}>+5,000</h1>
                 <h2 className={styles.titleCard}>CASOS<br />ATENDIDOS</h2>
-                <p className={styles.textCard}>Com mais de 5.000 casos atendidos, nossa equipe jurídica possui ampla experiência em solucionar diversas questões legais</p>
+                <p className={styles.textCard}>Com mais de 5.000 casos atendidos, nossa equipe jurídica possui ampla experiência em solucionar diversas</p>
             </div>
         </div>
     )
