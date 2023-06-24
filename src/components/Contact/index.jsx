@@ -41,7 +41,7 @@ export default function Contact({children}){
                         <VisibilitySensor partialVisibility>
                             {({ isVisible }) => (
                             <motion.div
-                                style={{ zIndex: "999" }}
+                                style={{ zIndex: "999", display:"flex",alignItems:"end" }}
                                 animate={isVisible ? 'visible' : 'hidden'}
                                 variants={animationRigth}
                                 transition={{ duration: 0.7 }}
