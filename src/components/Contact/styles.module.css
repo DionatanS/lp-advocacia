@@ -5,6 +5,7 @@
 .contentContact{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .divContactInf{
     display: flex;

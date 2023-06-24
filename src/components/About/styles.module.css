@@ -8,6 +8,7 @@
 .contentInfAbout {
     display: flex;
     gap: 90px;
+    overflow: hidden;
     @media (max-width: 1080px) {
        gap: 50px;
     }

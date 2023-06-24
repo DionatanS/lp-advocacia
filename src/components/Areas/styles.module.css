@@ -48,6 +48,8 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    overflow: hidden;
+    padding-top: 5px;
 }
 .btnScheduling{
     margin-inline: auto;
