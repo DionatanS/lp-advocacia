@@ -38,3 +38,6 @@
     line-height: 28px;
     color: #FFF;
 }
+.btnReport:hover{
+    opacity: 0.8;
+}

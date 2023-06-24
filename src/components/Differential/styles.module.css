@@ -39,6 +39,10 @@
         height: 250px;     
     }
 }
+.cardDifferential:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
 .emphasis{
     font-family: 'Open Sans';
     font-style: normal;

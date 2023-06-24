@@ -15,9 +15,18 @@
     margin-bottom: 70px;
 }
 .contentCardAreas{
-    @media (max-width: 1280px) {
+    /* @media (max-width: 1280px) {
         padding-inline: 20px;
-    }
+    } */
+    border: solid #00264C;
+    border-radius: 10px;
+    padding: 15px 15px 15px 15px;
+    margin-inline: 20px;
+    
+}
+.contentCardAreas:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
 }
 .titleCardAreas{
     font-family: 'Open Sans';
@@ -38,7 +47,7 @@
 .containerCardsArea{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 15px;
 }
 .btnScheduling{
     margin-inline: auto;
@@ -57,4 +66,8 @@
     font-size: 20px;
     line-height: 28px;
     color: #00264C;
+}
+.btnScheduling:hover{
+    background-color: #00264C;
+    color: #fff;
 }

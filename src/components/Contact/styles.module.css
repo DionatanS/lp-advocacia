@@ -114,4 +114,8 @@ display: none;
     font-family: Open Sans;
     font-weight: 600;
     line-height: 28px;
+    cursor: pointer;
+}
+.btnSend:hover{
+    opacity: 0.8;
 }

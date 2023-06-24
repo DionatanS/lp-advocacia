@@ -107,7 +107,12 @@
     font-size: 20px;
     line-height: 28px;
     gap: 20px;
+    cursor: pointer;
 }
+.buttonFaleConosco:hover{
+    opacity: 0.8;
+}
+
 .destaque{
     color: #D99228;
 }
