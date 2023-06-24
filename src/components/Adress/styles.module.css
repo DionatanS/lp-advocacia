@@ -32,6 +32,9 @@
     text-align: justified;
     color: #494949;
     margin-bottom: 65px;
+    @media (max-width: 920px) {
+        font-size: 18px;
+    }
 }
 .divColum{
     width: 50%;
@@ -39,6 +42,9 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    @media (max-width: 1080px) {
+        margin-inline: 20px;
+    }
 }
 .btnAdress{
     display: flex;

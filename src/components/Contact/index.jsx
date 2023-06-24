@@ -7,12 +7,12 @@ export default function Contact({children}){
                 <div className={styles.contentContact}>
                     <div className={styles.divContactInf}>
                         <div className={styles.contacts}>
-                            <img src="/images/logoJbContact.svg" alt="" />
+                            <img className={styles.logocontact} src="/images/logoJbContact.svg" alt="" />
                             <a className={styles.linkContact} href=""><img src="/images/iconEmail.svg" alt="" />loremipsun@gmail.com.br</a>
                             <a className={styles.linkContact} href=""><img src="/images/IconPhone.svg" alt="" />(51) 3333 - 0000</a>
                             <a className={styles.linkContact} href=""><img src="/images/IconWhatsContact.svg" alt="" />(51) 9 9999 - 9999</a>
                         </div>
-                        <img src="/images/imgContact.svg" alt="" />
+                        <img className={styles.imgContact} src="/images/imgContact.svg" alt="" />
                     </div>
                     <form action="" className={styles.containerform}>
                         <input className={styles.input} type="text" name="name" id="" placeholder="Seu nome"/>

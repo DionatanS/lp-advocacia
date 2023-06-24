@@ -3,10 +3,16 @@
     margin-top: 70px;
     width: 100%;
     display: grid;
-    row-gap: 70px;
+    row-gap: 50px;
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    @media (max-width: 1080px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        max-width: 700px;
+        margin-inline: auto;
+    }
 }
 .cardActing{
     display: flex;
@@ -20,6 +26,10 @@
     @media (max-width: 1480px) {
         width: 290px;
     }
+    @media (max-width: 1366px) {
+        width: 256px;
+    }
+    
 }
 .iconCard{
     width: 50px;
@@ -33,7 +43,9 @@
     font-size: 25px;
     line-height: 45px;
     color: #D4A55F;
-
+    @media (max-width: 1366px) {
+        font-size: 20px;
+    }
 }
 .textCardActing{
     font-family: 'Open Sans';

@@ -2,7 +2,6 @@
     width: 100%;
     padding-block: 90px;
     display: flex;
-    /* padding-inline: 20px; */
 }
 .titleAreas{
     font-family: 'Open Sans';
@@ -14,6 +13,11 @@
     text-decoration: underline;
     text-underline-offset: 8px;
     margin-bottom: 70px;
+}
+.contentCardAreas{
+    @media (max-width: 1280px) {
+        padding-inline: 20px;
+    }
 }
 .titleCardAreas{
     font-family: 'Open Sans';

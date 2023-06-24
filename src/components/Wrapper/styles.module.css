@@ -5,4 +5,13 @@
     @media (max-width: 1480px) {
         max-width: 1160px;
     }
+    @media (max-width: 1366px) {
+        max-width: 1132px;
+    }
+    @media (max-width: 1280px) {
+        max-width: 980px;
+    }
+    @media (max-width: 920px) {
+        max-width: 760px;
+    }
 }
