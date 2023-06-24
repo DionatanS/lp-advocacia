@@ -2,7 +2,7 @@ import styles from "../Hero/styles.module.css"
 export default function Hero({children}){
     return(        
         <div className={styles.containerHero}>
-            <img src="/images/hero.jpg" alt=""  className={styles.imgHero}/>
+            <img src="/images/imgHero.png" alt=""  className={styles.imgHero}/>
             <div className={styles.contentHero}>
                 <img src="/images/logo.png" alt="" className={styles.imgLogo}/>
                 <div className={styles.cointainerHeroText}>
