@@ -3,18 +3,6 @@ import React, { useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import { motion, useAnimation } from 'framer-motion';
 export default function Differential({}){
-    // const onVisibilityChange = (isVisible) => {
-    //   setIsVisible(isVisible);
-    // };
-  
-    // const animationLeft = {
-    //     hidden: { x: -200, opacity: 0 },
-    //     visible: { x: 0, opacity: 1 },
-    // };
-    // const animationRigth = {
-    //     hidden: { x: 200, opacity: 0 },
-    //     visible: { x: 0, opacity: 1 },
-    // };
     return(        
         <div className={styles.containerDifferential}>
                     <div className={styles.cardDifferential}>
