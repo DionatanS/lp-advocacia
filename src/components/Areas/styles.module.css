@@ -15,10 +15,6 @@
     margin-bottom: 70px;
 }
 .contentCardAreas{
-    /* @media (max-width: 1280px) {
-        padding-inline: 20px;
-    } */
-    border: solid #00264C;
     border-radius: 10px;
     padding: 15px 15px 15px 15px;
     margin-inline: 20px;
