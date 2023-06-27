@@ -2,6 +2,9 @@
     width: 100%;
     padding-block: 90px;
     display: flex;
+    @media (max-width: 480px) {
+        padding-block: 50px;
+    }
 }
 .titleAreas{
     font-family: 'Open Sans';
@@ -12,7 +15,10 @@
     color: #D4A55F;
     text-decoration: underline;
     text-underline-offset: 8px;
-    margin-bottom: 70px;
+    margin-bottom: 10px;
+    @media (max-width: 480px) {
+        font-size: 28px;
+    }
 }
 .contentCardAreas{
     border-radius: 10px;
@@ -31,6 +37,10 @@
     font-size: 28px;
     line-height: 45px;
     color: #000000;
+    @media (max-width: 480px) {
+        font-size: 22px;
+        line-height: 45px;
+    }
 }
 .textCardAreas{
     font-family: 'Open Sans';
@@ -39,6 +49,10 @@
     font-size: 20px;
     line-height: 25px;
     color: #494949;
+    @media (max-width: 480px) {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 .containerCardsArea{
     display: flex;
@@ -46,10 +60,13 @@
     gap: 15px;
     overflow: hidden;
     padding-top: 5px;
+    @media (max-width: 480px) {
+        gap: 0px;
+    }
 }
 .btnScheduling{
     margin-inline: auto;
-    margin-top: 70px;
+    margin-top: 25px;
     display: flex;
     align-items: center;
     justify-content: center;

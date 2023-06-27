@@ -2,6 +2,11 @@
     margin-inline: auto;
     position: relative;
 }
+.imgIconFixed{
+  @media (max-width: 480px) {
+    width: 60px;
+}
+}
 .iconFixed{
     position: fixed;
     bottom: 0;

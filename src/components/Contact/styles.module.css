@@ -10,6 +10,7 @@
 .divContactInf{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     @media (max-width: 1280px) {
         padding-inline: 40px;
     }
