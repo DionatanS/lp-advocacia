@@ -106,7 +106,6 @@ export default function Areas({ children }) {
               </motion.div>
             )}
           </VisibilitySensor>
-          {/* Restante dos cards omitidos para brevidade */}
         </div>
         <a href="" className={styles.btnScheduling}>FAZER AGENDAMENTO</a>
       </Wrapper>
