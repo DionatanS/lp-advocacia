@@ -24,20 +24,15 @@
 }
 .logocontact{
     @media (max-width: 1280px) {
-       width: 350px;
+       width: 320px;
     }
-    @media (max-width: 980px) {
-        width: 320px;
-     }
+
      @media (max-width: 920px) {
         width: 250px;
     }
 }
 .imgContact{
     @media (max-width: 1280px) {
-        width: 500px;
-    }
-    @media (max-width: 980px) {
         width: 400px;
     }
     @media (max-width: 920px) {
