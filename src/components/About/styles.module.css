@@ -3,6 +3,9 @@
     display: flex;
     padding-bottom: 120px;
     padding-top: 30px;
+    @media (max-width: 480px) {
+        padding-bottom: 0px;
+    }
 }
 
 .contentInfAbout {
@@ -11,6 +14,12 @@
     overflow: hidden;
     @media (max-width: 1080px) {
        gap: 50px;
+    }
+    @media (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-block: 30px;
     }
 }
 
@@ -43,7 +52,28 @@
     @media (max-width: 1080px) {
         background: linear-gradient(90deg, rgba(209, 197, 163, 1) 15%, rgba(255, 255, 255, 1) 15%, rgba(3, 3, 3, 0.14889705882352944) 15%, rgba(255, 255, 255, 1) 15.5%);
     }
+    @media (max-width: 480px) {
+        height: auto;
+        background: linear-gradient(90deg, rgba(209, 197, 163, 1) 100%, rgba(255, 255, 255, 1) 15%, rgba(3, 3, 3, 0.14889705882352944) 15%, rgba(255, 255, 255, 1) 15.5%);
+    }
     
+}
+.containerImgAbout{
+    @media (max-width: 480px) {
+        order: 2;
+    }
+}
+.containerTextAbout{
+    @media (max-width: 480px) {
+       order: 1;
+    }
+
+}
+.containerContentTextAbout{
+    max-width: 335px;
+    @media (max-width: 480px) {
+        height: auto;
+    }
 }
 
 .titleAbout {
@@ -55,6 +85,11 @@
     color: #D4A55F;
     text-decoration: underline;    
     text-underline-offset: 7px;
+    @media (max-width: 480px) {
+        text-align: center;
+        font-size: 28px;
+        line-height: 25px;
+    }
 }
 .textAbout{
     margin-top: 40px;
@@ -64,4 +99,8 @@
     font-size: 20px;
     line-height: 25px;
     color: #494949;
+    @media (max-width: 480px) {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
