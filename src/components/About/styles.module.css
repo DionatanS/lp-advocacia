@@ -58,7 +58,7 @@
     }
     
 }
-.containerImgAbout{
+/* .containerImgAbout{
     @media (max-width: 480px) {
         order: 2;
     }
@@ -68,7 +68,15 @@
        order: 1;
     }
 
-}
+} */
+@media (max-width: 480px) {
+    .containerImgAbout{
+        order: 2;
+    }
+    .containerTextAbout{
+        order: 1;
+    }
+ }
 .containerContentTextAbout{
     /* max-width: 335px; */
     @media (max-width: 480px) {
