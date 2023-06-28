@@ -3,7 +3,8 @@
     padding-block: 90px;
     display: flex;
     @media (max-width: 480px) {
-        padding-block: 50px;
+        padding-top: 30px;
+        padding-bottom: 10px;
     }
 }
 .titleAreas{
