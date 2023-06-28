@@ -14,8 +14,8 @@ export default function Home(){
             <Experiences/>
             <Areas/>
             <About/>
-            {/* <Adress/>
-            <Contact/>
+            <Adress/>
+            {/* <Contact/>
             <Footer/> */}
 
         </Container>
