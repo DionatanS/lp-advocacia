@@ -78,7 +78,7 @@
     @media (max-width: 480px) {
         width: 100%;
         border-radius: 0px;
-        height: 250px;
+        height: 235px;
     }
 }
 .subtituloHero{
@@ -120,7 +120,7 @@
     @media (max-width: 480px) {
        font-size: 12px;
        padding: 12px 17px 25px 17px;    
-       line-height: 17px;
+       line-height: 14px;
     }
 }
 .buttonFaleConosco{
