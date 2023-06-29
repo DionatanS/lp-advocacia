@@ -27,7 +27,7 @@ export default function Acting({}){
                     transition={{ duration: 0.7 }}
                 >
                     <div className={styles.cardActing}>
-                    <Image width={50} height={50} className={styles.iconCard} src="/images/iconSeriousDiseases.svg" alt="" />
+                    <Image width={60} height={60} className={styles.iconCard} src="/images/iconSeriousDiseases.svg" alt="" />
                     <div>
                         <h1 className={styles.titleCardActing}>Doença Grave</h1>
                         <p className={styles.textCardActing}>Benefício concedido a trabalhadores permanentemente incapacitados devido a uma doença grave.</p>
@@ -45,7 +45,7 @@ export default function Acting({}){
                     transition={{ duration: 0.7 }}
                 >
                     <div className={styles.cardActing}>
-                        <Image width={50} height={50} className={styles.iconCard} src="/images/iconRetirement.svg" alt="" />
+                        <Image width={55} height={60} className={styles.iconCard} src="/images/iconRetirement.svg" alt="Icone de aposentadoria" />
                         <div>
                             <h1 className={styles.titleCardActing}>Aposentadoria</h1>
                             <p className={styles.textCardActing}>Benefício que garante renda mensal após o término da vida profissional.</p>
@@ -63,7 +63,7 @@ export default function Acting({}){
                     transition={{ duration: 0.7 }}
                 >
                     <div className={styles.cardActing}>
-                        <Image width={50} height={50} className={styles.iconCard} src="/images/iconAccident.svg" alt="" />
+                        <Image width={26} height={60} className={styles.iconCard} src="/images/iconAccident.svg" alt="icone de Acidente" />
                         <div>
                             <h1 className={styles.titleCardActing}>Acidente</h1>
                             <p className={styles.textCardActing}>Benefício para trabalhadores incapacitados devido a acidentes de trabalho ou doenças ocupacionais</p>
@@ -99,7 +99,7 @@ export default function Acting({}){
                     transition={{ duration: 0.7 }}
                 >
                     <div className={styles.cardActing}>
-                        <Image width={50} height={50} className={styles.iconCard} src="/images/iconPublicServer.svg" alt="" />
+                        <Image width={43} height={49} className={styles.iconCard} src="/images/iconPublicServer.svg" alt="" />
                         <div>
                             <h1 className={styles.titleCardActing}>Servidor Público</h1>
                             <p className={styles.textCardActing}>Benefício vitalício para servidores estatutários ou celetistas com base no tempo de contribuição.</p>
