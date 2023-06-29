@@ -86,10 +86,7 @@
     width: 100%;
     display: flex;
     gap: 20px;
-    @media (max-width: 480px) {
-       width: 331.5px;
-       
-    }
+    
 }
 .inputMedium{
     width: 100%;
@@ -144,6 +141,7 @@ display: none;
     }
     .containerNameEmail{
         flex-direction: column;
+        width: 331.5px;
 
     }
 }
