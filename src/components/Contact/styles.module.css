@@ -137,7 +137,7 @@ display: none;
 }
 @media (max-width: 480px) {
     .containerform{
-        width: 340px;
+        max-width: 340px;
     }
     .containerNameEmail{
         flex-direction: column;
