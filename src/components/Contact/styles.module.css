@@ -1,6 +1,9 @@
 .containerContact{
     width: 100%;
     padding-block: 100px;
+    @media (max-width: 480px) {
+        padding-block: 40px;
+    }
 }
 .contentContact{
     display: flex;
@@ -13,6 +16,11 @@
     align-items: flex-end;
     @media (max-width: 1280px) {
         padding-inline: 40px;
+    }
+    @media (max-width: 480px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 49px;
     }
 }
 .contacts{
@@ -31,6 +39,9 @@
      @media (max-width: 920px) {
         width: 250px;
     }
+    @media (max-width: 480px) {
+        width: 320px;
+    }
 }
 .imgContact{
     @media (max-width: 1280px) {
@@ -38,6 +49,9 @@
     }
     @media (max-width: 920px) {
         width: 300px;
+    }
+    @media (max-width: 480px) {
+        width: 100vw;
     }
 }
 .linkContact{
@@ -64,6 +78,7 @@
     @media (max-width: 1080px) {
         width: 640px;
     }
+    
 }
 .containerNameEmail{
     width: 100%;
@@ -115,4 +130,12 @@ display: none;
 }
 .btnSend:hover{
     opacity: 0.8;
+}
+@media (max-width: 480px) {
+    .containerform{
+        width: 340px;
+    }
+    .containerNameEmail{
+        flex-direction: column;
+    }
 }
