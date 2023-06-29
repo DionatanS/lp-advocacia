@@ -65,9 +65,9 @@ export default function Contact({children}){
                         </div>
                         <select className={styles.selectForm}name="Assunto" defaultValue="Selecione">
                             <option className={styles.option} value="Selecione um assunto"  hidden>Selecione um assunto</option>
-                            <option className={styles.option} value="compras">Compras</option>
-                            <option className={styles.option} value="sujestao">Sugestão</option>
-                            <option className={styles.option} value="duvidas">Dúvidas</option>
+                            <option className={styles.option} value="Previdenciário">Previdenciário</option>
+                            <option className={styles.option} value="Beneficios">Beneficios</option>
+                            <option className={styles.option} value="Duvidas">Dúvidas</option>
                         </select>
                         <textarea className={styles.input} style={{height:"120px"}} required name="Mensagem" placeholder="Mensagem"></textarea>
                         <button className={styles.btnSend} type="submit">ENVIAR</button>
