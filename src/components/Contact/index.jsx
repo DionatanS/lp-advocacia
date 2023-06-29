@@ -1,4 +1,5 @@
 import styles from "../Contact/styles.module.css"
+import Image from "next/image";
 import Wrapper from "../Wrapper"
 import React, { useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -36,10 +37,10 @@ export default function Contact({children}){
                                     transition={{ duration: 0.9 }}
                                 >
                                      <div className={styles.contacts}>
-                                        <img className={styles.logocontact} src="/images/logoJbContact.svg" alt="" />
-                                        <a title="link para mandar email" className={styles.linkContact} href="mailto:joao.adv.civil@gmail.com"><img src="/images/iconEmail.svg" alt="" />joao.adv.civil@gmail.com</a>
-                                        <a title="link para ligar para o telefone" className={styles.linkContact} href="tel:+5551997357824"><img src="/images/IconPhone.svg" alt="" />(51) 9 9735-7824</a>
-                                        <a title="link para whatsapp" className={styles.linkContact} href="https://api.whatsapp.com/send?phone=5551997357824"><img src="/images/IconWhatsContact.svg" alt="" />(51) 9 9735-7824</a>
+                                        <Image width={320} height={138} className={styles.logocontact} src="/images/logoJbContact.svg" alt="" />
+                                        <a title="link para mandar email" className={styles.linkContact} href="mailto:joao.adv.civil@gmail.com"><Image width={26} height={26} src="/images/iconEmail.svg" alt="" />joao.adv.civil@gmail.com</a>
+                                        <a title="link para ligar para o telefone" className={styles.linkContact} href="tel:+5551997357824"><Image width={26} height={26} src="/images/IconPhone.svg" alt="" />(51) 9 9735-7824</a>
+                                        <a title="link para whatsapp" className={styles.linkContact} href="https://api.whatsapp.com/send?phone=5551997357824"><Image width={26} height={26} src="/images/IconWhatsContact.svg" alt="" />(51) 9 9735-7824</a>
                                     </div>
                                 </motion.div>
                                 )}
@@ -52,7 +53,7 @@ export default function Contact({children}){
                                     variants={animationRight}
                                     transition={{ duration: 0.9 }}
                                 >
-                                     <img className={styles.imgContact} src="/images/imgContact.svg" alt="" />
+                                     <Image width={591} height={327} className={styles.imgContact} src="/images/imgContact.svg" alt="" />
                                 </motion.div>
                                 )}
                     </VisibilitySensor>                    

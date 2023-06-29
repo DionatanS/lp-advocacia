@@ -1,4 +1,5 @@
 import styles from "../About/styles.module.css"
+import Image from "next/image";
 import Wrapper from "../Wrapper"
 import React, { useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
@@ -35,7 +36,7 @@ export default function About({children}){
                                 variants={animationLeft}
                                 transition={{ duration: 0.9 }}
                             >
-                                <img src="/images/imageAbout.svg" alt="" />
+                                <Image width={232} height={348} src="/images/imageAbout.svg" alt="" />
                             </motion.div>
                             )}
                         </VisibilitySensor>
