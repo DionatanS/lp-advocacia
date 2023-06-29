@@ -40,22 +40,6 @@
         width: 300px;
     }
 }
-@media (max-width: 480px) {
-    .imgContact{
-        width: 100vw;
-    }
-    .logocontact{
-        width: 320px;
-    }
-    .divContactInf{
-        flex-direction: column;
-        align-items: center;
-        gap: 49px;
-    }
-    .containerContact{
-        padding-block: 40px;
-    }
-}
 .linkContact{
     color: #494949;
     font-size: 20px;
@@ -85,11 +69,7 @@
 .containerNameEmail{
     width: 100%;
     display: flex;
-    gap: 20px;
-    @media (max-width: 480px) {
-       width: 331.5px;
-       
-    }
+    gap: 15px;
 }
 .inputMedium{
     width: 100%;
