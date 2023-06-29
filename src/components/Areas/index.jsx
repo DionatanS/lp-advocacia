@@ -107,7 +107,7 @@ export default function Areas({ children }) {
             )}
           </VisibilitySensor>
         </div>
-        <a href="" className={styles.btnScheduling}>FAZER AGENDAMENTO</a>
+        <a target='_blank' title='Link apra whatsApp' href="https://api.whatsapp.com/send?phone=5551997357824" className={styles.btnScheduling}>FAZER AGENDAMENTO</a>
       </Wrapper>
     </div>
   );

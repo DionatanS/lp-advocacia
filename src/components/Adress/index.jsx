@@ -36,7 +36,7 @@ export default function Adress({children}){
                                     transition={{ duration: 0.9 }}
                                 >
                                     <p className={styles.textAdress}>Atendimento presencial e digital, em todo Brasil com sede em Santa Catarina, no Edifício Augusto Towers, 65, sala 2030, 12 andar, Campinas - São José.</p>
-                                    <a className={styles.btnAdress} href="">FALE CONOSCO<img src="/images/iconWhatsAdress.svg" alt="" /></a>
+                                    <a title="link para falar conosco no whatsapp" className={styles.btnAdress} href="https://api.whatsapp.com/send?phone=5551997357824">FALE CONOSCO<img src="/images/iconWhatsAdress.svg" alt="" /></a>
                                 </motion.div>
                                 )}
                     </VisibilitySensor>

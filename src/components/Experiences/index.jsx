@@ -10,7 +10,7 @@ export default function Experiences({ children }) {
                 <h2 className={styles.titleSectionExperiences}>Nossa experiência em casos <span style={{color:"#D4A55F"}}>previdenciários</span> irá resolver essa questão para você.</h2>
                 <Acting/>
                 <h2 className={styles.titleSectionExperiences}>Problemas atípicos demandam soluções <span style={{color:"#D4A55F"}}>personalizadas</span>. Compartilhe seu caso conosco para ajudarmos você.</h2>
-                <a href="" className={styles.btnReport}>RELATAR MEU CASO</a>
+                <a target="_blank" title="link para abrir whatsapp" href="https://api.whatsapp.com/send?phone=5551997357824" className={styles.btnReport}>RELATAR MEU CASO</a>
             </Wrapper>
         </div>
 
