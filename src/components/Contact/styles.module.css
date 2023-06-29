@@ -141,7 +141,9 @@ display: none;
     }
     .containerNameEmail{
         flex-direction: column;
-        width: 331.5px;
-
+        /* width: 331.5px; */
+    }
+    .inputMedium{
+        width: auto;
     }
 }
