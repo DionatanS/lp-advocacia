@@ -1,9 +1,6 @@
 .containerContact{
     width: 100%;
     padding-block: 100px;
-    @media (max-width: 480px) {
-        padding-block: 40px;
-    }
 }
 .contentContact{
     display: flex;
@@ -16,11 +13,6 @@
     align-items: flex-end;
     @media (max-width: 1280px) {
         padding-inline: 40px;
-    }
-    @media (max-width: 480px) {
-        flex-direction: column;
-        align-items: center;
-        gap: 49px;
     }
 }
 .contacts{
@@ -39,9 +31,6 @@
      @media (max-width: 920px) {
         width: 250px;
     }
-    @media (max-width: 480px) {
-        width: 320px;
-    }
 }
 .imgContact{
     @media (max-width: 1280px) {
@@ -50,8 +39,21 @@
     @media (max-width: 920px) {
         width: 300px;
     }
-    @media (max-width: 480px) {
+}
+@media (max-width: 480px) {
+    .imgContact{
         width: 100vw;
+    }
+    .logocontact{
+        width: 320px;
+    }
+    .divContactInf{
+        flex-direction: column;
+        align-items: center;
+        gap: 49px;
+    }
+    .containerContact{
+        padding-block: 40px;
     }
 }
 .linkContact{
@@ -83,7 +85,10 @@
 .containerNameEmail{
     width: 100%;
     display: flex;
-    gap: 15px;
+    gap: 20px;
+    @media (max-width: 480px) {
+       width: 331.5px;
+    }
 }
 .inputMedium{
     width: 100%;
