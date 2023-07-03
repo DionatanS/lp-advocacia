@@ -58,19 +58,21 @@ export default function Contact({children}){
                                 )}
                     </VisibilitySensor>                    
                     </div>
-                    <form action="" className={styles.containerform}>
-                        <input className={styles.input} type="text" name="name" id="" placeholder="Seu nome"/>
+                    <form action="https://formsubmit.co/joao.adv.civil@gmail.com" className={styles.containerform} method="POST">
+                        <input className={styles.input} type="text" name="name" placeholder="Seu nome" />
                         <div className={styles.containerNameEmail}>
-                            <input alt="input para digitar o nome" className={`${styles.inputMedium} ${styles.input}`} type="tel" name="phone" placeholder="(99) 9 9999-9999"/>
-                            <input alt="input para digitar o email" className={`${styles.inputMedium} ${styles.input}`} type="email" name="email" id="" placeholder="Seu e-mail"/>
+                            <input alt="input para digitar o nome" className={`${styles.inputMedium} ${styles.input}`} type="tel" name="phone" placeholder="(99) 9 9999-9999" />
+                            <input alt="input para digitar o email" className={`${styles.inputMedium} ${styles.input}`} type="email" name="email" placeholder="Seu e-mail" />
                         </div>
-                        <select className={styles.selectForm}name="Assunto" defaultValue="Selecione">
-                            <option className={styles.option} value="Selecione um assunto"  hidden>Selecione um assunto</option>
+                        <select className={styles.selectForm} name="Assunto" defaultValue="Selecione">
+                            <option className={styles.option} value="Selecione um assunto" hidden>Selecione um assunto</option>
                             <option className={styles.option} value="Previdenciário">Previdenciário</option>
                             <option className={styles.option} value="Beneficios">Beneficios</option>
                             <option className={styles.option} value="Duvidas">Dúvidas</option>
                         </select>
-                        <textarea title="input para digitar a mensagem" className={styles.input} style={{height:"120px"}} required name="Mensagem" placeholder="Mensagem"></textarea>
+                        <textarea title="input para digitar a mensagem" className={styles.input} style={{ height: "120px" }} required name="Mensagem" placeholder="Mensagem"></textarea>
+                        <input type="hidden" name="_next" value="/" />
+                        <input type="hidden" name="_captcha" value="false"></input>
                         <button title="botão para enviar email para o advogado" className={styles.btnSend} type="submit">ENVIAR</button>
                     </form>
                 </div>
