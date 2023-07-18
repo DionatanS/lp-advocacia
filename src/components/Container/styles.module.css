@@ -5,6 +5,7 @@
 .imgIconFixed{
   @media (max-width: 480px) {
     width: 60px;
+    height: auto;
 }
 }
 .iconFixed{

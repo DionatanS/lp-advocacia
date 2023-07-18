@@ -78,6 +78,16 @@
     @media (max-width: 480px) {
         width: 100%;
         border-radius: 0px;
+        height: 260px;
+    }
+    @media (max-width: 420px) {
+        width: 100%;
+        border-radius: 0px;
+        height: 280px;
+    }
+    @media (max-width: 400px) {
+        width: 100%;
+        border-radius: 0px;
         height: 290px;
     }
 }
@@ -142,6 +152,7 @@
     line-height: 28px;
     gap: 20px;
     cursor: pointer;
+    padding-top: 3px;
     @media (max-width: 480px) {
         margin-left: 0px;
         margin-inline: auto;

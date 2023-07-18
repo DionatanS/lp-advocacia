@@ -11,12 +11,11 @@ class MyDocument extends Document {
           <meta name="google" content="notranslate" key="notranslate" />       
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com"  />
+          <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap" rel="stylesheet"></link>
         </Head>
         <body>
           <Main />
           <NextScript />
-          <Script src="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" strategy="beforeInteractive" />
-          <Script src="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap" strategy="beforeInteractive" />
         </body>
       </Html>
     );
