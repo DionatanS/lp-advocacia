@@ -10,13 +10,13 @@
     color: #D4A55F;
     text-align: center;
     font-size: 18px;
-    font-family: Open Sans;
+    font-family: 'Overpass', sans-serif;
     line-height: 24px;
 }
 .linkFooter{
     color: #00264C;
     font-size: 18px;
-    font-family: Open Sans;
+    font-family: 'Overpass', sans-serif;
     font-weight: 700;
     line-height: 24px;
     cursor: pointer;

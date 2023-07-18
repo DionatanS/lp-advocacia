@@ -78,11 +78,11 @@
     @media (max-width: 480px) {
         width: 100%;
         border-radius: 0px;
-        height: 235px;
+        height: 290px;
     }
 }
 .subtituloHero{
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -99,7 +99,7 @@
         padding: 30px 100px 0px 60px;
      }
      @media (max-width: 480px) {
-        font-size: 16px;
+        font-size: 20px;
         padding: 12px 68px 0px 17px;        
         line-height: 18px;
 
@@ -107,7 +107,7 @@
      
 }
 .textHero{
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -120,9 +120,9 @@
 }
 @media (max-width: 480px) {
     .textHero{
-        font-size: 12px;
+        font-size: 16px;
         padding: 12px 17px 25px 17px;    
-        line-height: 14px;
+        line-height: 18px;
     }
  }
 .buttonFaleConosco{
@@ -135,7 +135,7 @@
     align-items: center;
     justify-content: center;
     color: #00264C;
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;

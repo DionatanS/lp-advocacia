@@ -16,6 +16,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
           <Script src="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" strategy="beforeInteractive" />
+          <Script src="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap" strategy="beforeInteractive" />
         </body>
       </Html>
     );

@@ -8,7 +8,7 @@
     }
 }
 .titleAreas{
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -32,7 +32,7 @@
     transition: transform 0.3s ease;
 }
 .titleCardAreas{
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
@@ -44,7 +44,7 @@
     }
 }
 .textCardAreas{
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -76,7 +76,7 @@
     background: #FFFFFF;
     border: 2px solid #00264C;
     border-radius: 8px;
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;

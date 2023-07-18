@@ -14,7 +14,7 @@
 }
 .titleSectionExperiences{
     margin-inline: auto;
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -43,7 +43,7 @@
     background: #00264C;
     border: 1px solid #00264C;
     border-radius: 8px;
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;

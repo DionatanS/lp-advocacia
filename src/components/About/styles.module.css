@@ -85,7 +85,7 @@
 }
 
 .titleAbout {
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -101,7 +101,7 @@
 }
 .textAbout{
     margin-top: 40px;
-    font-family: 'Open Sans';
+    font-family: 'Overpass', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;

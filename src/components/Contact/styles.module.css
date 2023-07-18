@@ -59,7 +59,7 @@
 .linkContact{
     color: #494949;
     font-size: 20px;
-    font-family: Open Sans;
+    font-family: 'Overpass', sans-serif;
     font-weight: 600;
     line-height: 25px;
     display: flex;
@@ -127,7 +127,7 @@ display: none;
     color: #fff;
     margin-inline: auto;
     margin-top: 20px;
-    font-family: Open Sans;
+    font-family: 'Overpass', sans-serif;
     font-weight: 600;
     line-height: 28px;
     cursor: pointer;
