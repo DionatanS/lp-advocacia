@@ -9,8 +9,8 @@ export default function Experiences({ children }) {
         <Differential />
         <h2 className={styles.titleSectionExperiences}>
           Nossa experiência em casos{" "}
-          <span style={{ color: "#D4A55F" }}>previdenciários</span> irá resolver
-          essas questões para você entre outras.
+          <span style={{ color: "#D4A55F" }}>previdenciários</span> resolverá
+          essas questões para você.
         </h2>
         <Acting />
         <h2 className={styles.titleSectionExperiences}>

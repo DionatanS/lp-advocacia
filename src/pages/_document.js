@@ -6,10 +6,6 @@ class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-          />
           <meta name="robots" content="all" />
           <meta name="google" content="nositelinkssearchbox" key="sitelinks" />
           <meta name="google" content="notranslate" key="notranslate" />

@@ -44,8 +44,9 @@ export default function About({ children }) {
                   <Image
                     width={232}
                     height={348}
-                    src="/images/imageAbout.svg"
+                    src="/images/imageAbout.webp"
                     alt=""
+                    style={{ borderRadius: "20px" }}
                   />
                 </motion.div>
               )}
