@@ -1,6 +1,7 @@
 import styles from "../Contact/styles.module.css";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
+import InputMask from 'react-input-mask';
 import React, { useRef, useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { motion, useAnimation } from "framer-motion";
@@ -99,13 +100,14 @@ export default function Contact({ children }) {
               placeholder="Seu nome"
             />
             <div className={styles.containerNameEmail}>
-              <input
-                alt="input para digitar o nome"
-                className={`${styles.inputMedium} ${styles.input}`}
-                type="tel"
-                name="phone"
-                placeholder="(99) 9 9999-9999"
-              />
+              <InputMask
+                  alt="input para digitar o telefone"
+                  className={`${styles.inputMedium} ${styles.input}`}
+                  mask="(99) 9 9999-9999"
+                  type="tel"
+                  name="phone"
+                  placeholder="(99) 9 9999-9999"
+                />
               <input
                 alt="input para digitar o email"
                 className={`${styles.inputMedium} ${styles.input}`}
