@@ -1,18 +1,32 @@
 import styles from "../Contact/styles.module.css";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { motion, useAnimation } from "framer-motion";
+import SuccessModal from "../SuccessModal";
 export default function Contact({ children }) {
   const [isAnimated, setIsAnimated] = useState(false);
   const [initialAnimationCompleted, setInitialAnimationCompleted] =
     useState(false);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const formRef = useRef(null);
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible && !initialAnimationCompleted) {
       setIsAnimated(true);
       setInitialAnimationCompleted(true);
+    }
+  };
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setShowSuccessModal(true);
+  };
+  const handleModalClose = () => {
+    setShowSuccessModal(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
+    if (formRef.current) {
+      formRef.current.reset();
     }
   };
 
@@ -72,9 +86,11 @@ export default function Contact({ children }) {
         <div className={styles.contentContact}>
           <div className={styles.divContactInf}></div>
           <form
+            ref={formRef}
             action="https://formsubmit.co/joao.adv.civil@gmail.com"
             className={styles.containerform}
             method="POST"
+            onSubmit={handleSubmit}
           >
             <input
               className={styles.input}
@@ -147,6 +163,12 @@ export default function Contact({ children }) {
               ENVIAR
             </button>
           </form>
+          {showSuccessModal && (
+            <SuccessModal onClose={() => {
+              handleModalClose();
+              setShowSuccessModal(false);
+            }} />
+          )}
         </div>
       </Wrapper>
     </div>
