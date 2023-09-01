@@ -39,7 +39,7 @@ export default function Hero({ children }) {
             <span className={styles.bold}>
               Temos a Solução para seus Benefícios Previdenciários!
             </span>{" "}
-            Atendemos em todo o Brasil com Consultoria Especializada em{" "}
+            Atendemos em todo o Rio Grande do Sul com especialização em{" "}
             <span className={styles.destaque}>Previdência Social</span>. Não
             deixe seus direitos serem negados, estamos aqui para oferecer a
             solução que você precisa.

@@ -1,170 +1,167 @@
-.containerHero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-inline: auto;
-    position: relative;
+.containerHero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+  position: relative;
 }
-.imgHeroDesk{
-    width: 100%;
-    height: 980px;
-    @media (max-width: 1920px) {
-        height: 900px;
-    }
-    @media (max-width: 1480px) {
-        height: 825px;
-    }
-    @media (max-width: 480px) {
-        display: none;
-    }
-}
-.imgHeroMobile{
+.imgHeroDesk {
+  width: 100%;
+  height: 980px;
+  @media (max-width: 1920px) {
+    height: 900px;
+  }
+  @media (max-width: 1480px) {
+    height: 825px;
+  }
+  @media (max-width: 480px) {
     display: none;
+  }
+}
+.imgHeroMobile {
+  display: none;
+  width: 100%;
+  height: auto;
+  @media (max-width: 480px) {
+    display: block;
     width: 100%;
+  }
+}
+.contentHero {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgLogo {
+  margin-top: 50px;
+  width: 670px;
+  height: 196px;
+  z-index: 999;
+  margin-inline: auto;
+  @media (max-width: 1480px) {
+    margin-top: 25px;
+  }
+  @media (max-width: 1080px) {
+    width: 460px;
     height: auto;
-    @media (max-width: 480px) {
-        display: block;
-        width: 100%;
-    }
+  }
+  @media (max-width: 480px) {
+    width: 300px;
+  }
 }
-.contentHero{
-    position: absolute;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+.cointainerHeroText {
+  margin-top: 50px;
+  width: 950px;
+  height: 420px;
+  background: #00264c;
+  opacity: 0.96;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 1366px) {
+    width: 800px;
+    /* height: 420px; */
+    margin-top: 15px;
+  }
+  @media (max-width: 1080px) {
+    width: 700px;
+    height: 465px;
+  }
+  @media (max-width: 820px) {
+    width: 600px;
+    height: 540px;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    border-radius: 0px;
+    height: 260px;
+  }
+  @media (max-width: 420px) {
+    width: 100%;
+    border-radius: 0px;
+    height: 280px;
+  }
+  @media (max-width: 400px) {
+    width: 100%;
+    border-radius: 0px;
+    height: 290px;
+  }
 }
-
-.imgLogo{
-    margin-top: 50px;
-    width: 670px;
-    height: 196px;
-    z-index: 999;
-    margin-inline: auto;
-    @media (max-width: 1480px) {
-        margin-top: 25px;
-    }
-    @media (max-width: 1080px) {
-        width: 460px;
-        height: auto;
-    }
-    @media (max-width: 480px) {
-        width: 300px;
-    }
-}
-.cointainerHeroText{
-    margin-top: 50px;
-    width: 950px;
-    height: 452px;
-    background: #00264C;
-    opacity: 0.96;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    @media (max-width: 1366px) {
-        width: 800px;
-        height: 465px;
-        margin-top: 15px;
-     }
-    @media (max-width: 1080px) {
-       width: 700px;
-       height: 465px;
-    }
-    @media (max-width: 820px) {
-        width: 600px;
-        height: 540px;
-    }
-    @media (max-width: 480px) {
-        width: 100%;
-        border-radius: 0px;
-        height: 260px;
-    }
-    @media (max-width: 420px) {
-        width: 100%;
-        border-radius: 0px;
-        height: 280px;
-    }
-    @media (max-width: 400px) {
-        width: 100%;
-        border-radius: 0px;
-        height: 290px;
-    }
-}
-.subtituloHero{
-    font-family: 'Overpass', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 45px;
-    color: #FFFFFF;
-    padding: 60px 150px 0px 60px;
-    @media (max-width: 1366px) {
-        padding: 30px 100px 0px 60px;
-     }
-    @media (max-width: 1080px) {
-        padding: 30px 150px 0px 60px;
-     }
-     @media (max-width: 820px) {
-        padding: 30px 100px 0px 60px;
-     }
-     @media (max-width: 480px) {
-        font-size: 20px;
-        padding: 12px 68px 0px 17px;        
-        line-height: 18px;
-
-    }
-     
-}
-.textHero{
-    font-family: 'Overpass', sans-serif;
-    font-style: normal;
-    font-weight: 600;
+.subtituloHero {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  color: #ffffff;
+  padding: 60px 150px 0px 60px;
+  @media (max-width: 1366px) {
+    padding: 30px 100px 0px 60px;
+  }
+  @media (max-width: 1080px) {
+    padding: 30px 150px 0px 60px;
+  }
+  @media (max-width: 820px) {
+    padding: 30px 100px 0px 60px;
+  }
+  @media (max-width: 480px) {
     font-size: 20px;
-    line-height: 28px;
-    color: #FFFFFF;    
-    padding: 40px 150px 40px 60px;
-    @media (max-width: 820px) {
-        padding: 30px 100px 40px 60px;
-    }    
+    padding: 12px 68px 0px 17px;
+    line-height: 18px;
+  }
+}
+.textHero {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 40px 150px 40px 60px;
+  @media (max-width: 820px) {
+    padding: 30px 100px 40px 60px;
+  }
 }
 @media (max-width: 480px) {
-    .textHero{
-        font-size: 16px;
-        padding: 12px 17px 25px 17px;    
-        line-height: 18px;
-    }
- }
-.buttonFaleConosco{
-    width: 300px;
-    height: 50px;
-    background: #D5A55F;
-    border-radius: 8px;
-    margin-left: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #00264C;
-    font-family: 'Overpass', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    gap: 20px;
-    cursor: pointer;
-    padding-top: 3px;
-    @media (max-width: 480px) {
-        margin-left: 0px;
-        margin-inline: auto;
-    }
+  .textHero {
+    font-size: 16px;
+    padding: 12px 17px 25px 17px;
+    line-height: 18px;
+  }
 }
-.buttonFaleConosco:hover{
-    opacity: 0.8;
+.buttonFaleConosco {
+  width: 300px;
+  height: 50px;
+  background: #d5a55f;
+  border-radius: 8px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00264c;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  gap: 20px;
+  cursor: pointer;
+  padding-top: 3px;
+  @media (max-width: 480px) {
+    margin-left: 0px;
+    margin-inline: auto;
+  }
+}
+.buttonFaleConosco:hover {
+  opacity: 0.8;
 }
 
-.destaque{
-    color: #D99228;
+.destaque {
+  color: #d99228;
 }
-.bold{
-    font-weight: 800;
+.bold {
+  font-weight: 800;
 }

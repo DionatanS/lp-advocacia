@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
-import VisibilitySensor from 'react-visibility-sensor';
-import { motion } from 'framer-motion';
+import React, { useState } from "react";
+import VisibilitySensor from "react-visibility-sensor";
+import { motion } from "framer-motion";
 import styles from "../Areas/styles.module.css";
 import Wrapper from "../Wrapper";
 
 export default function Areas({ children }) {
   const [isAnimated, setIsAnimated] = useState(false);
-  const [initialAnimationCompleted, setInitialAnimationCompleted] = useState(false);
+  const [initialAnimationCompleted, setInitialAnimationCompleted] =
+    useState(false);
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible && !initialAnimationCompleted) {
@@ -35,13 +36,23 @@ export default function Areas({ children }) {
             {({ isVisible }) => (
               <motion.div
                 style={{ zIndex: "999" }}
-                animate={isAnimated || initialAnimationCompleted ? "visible" : "hidden"}
+                animate={
+                  isAnimated || initialAnimationCompleted ? "visible" : "hidden"
+                }
                 variants={animationLeft}
                 transition={{ duration: 0.9 }}
               >
                 <div className={styles.contentCardAreas}>
-                  <h2 className={styles.titleCardAreas}>PREVIDENCIÁRIO</h2>
-                  <p className={styles.textCardAreas}>Envolve questões como aposentadoria, pensão por morte, auxílio-doença e auxílio-maternidade. Tem como objetivo garantir a proteção social aos trabalhadores e seus dependentes, proporcionando-lhes segurança financeira em situações de invalidez, idade avançada, doença ou morte. É regulado por leis e normas específicas que visam assegurar o acesso justo e equitativo aos benefícios previdenciários.</p>
+                  <h2 className={styles.titleCardAreas}>Previdenciário</h2>
+                  <p className={styles.textCardAreas}>
+                    Entenda seus direitos e proteja seu futuro financeiro com os
+                    serviços especializados de previdência oferecidos pelo nosso
+                    escritório de advocacia. Oferecemos orientação jurídica
+                    sólida para garantir que você esteja preparado para a
+                    aposentadoria e para enfrentar qualquer desafio que surja no
+                    caminho. Confie em nossa experiência para assegurar sua
+                    tranquilidade financeira.
+                  </p>
                 </div>
               </motion.div>
             )}
@@ -50,64 +61,36 @@ export default function Areas({ children }) {
             {({ isVisible }) => (
               <motion.div
                 style={{ zIndex: "999" }}
-                animate={isAnimated || initialAnimationCompleted ? "visible" : "hidden"}
+                animate={
+                  isAnimated || initialAnimationCompleted ? "visible" : "hidden"
+                }
                 variants={animationLeft}
                 transition={{ duration: 0.9 }}
               >
                 <div className={styles.contentCardAreas}>
-                  <h2 className={styles.titleCardAreas}>PREVIDENCIÁRIO</h2>
-                  <p className={styles.textCardAreas}>Envolve questões como aposentadoria, pensão por morte, auxílio-doença e auxílio-maternidade. Tem como objetivo garantir a proteção social aos trabalhadores e seus dependentes, proporcionando-lhes segurança financeira em situações de invalidez, idade avançada, doença ou morte. É regulado por leis e normas específicas que visam assegurar o acesso justo e equitativo aos benefícios previdenciários.</p>
-                </div>
-              </motion.div>
-            )}
-          </VisibilitySensor>
-          <VisibilitySensor partialVisibility onChange={onVisibilityChange}>
-            {({ isVisible }) => (
-              <motion.div
-                style={{ zIndex: "999" }}
-                animate={isAnimated || initialAnimationCompleted ? "visible" : "hidden"}
-                variants={animationLeft}
-                transition={{ duration: 0.9 }}
-              >
-                <div className={styles.contentCardAreas}>
-                  <h2 className={styles.titleCardAreas}>PREVIDENCIÁRIO</h2>
-                  <p className={styles.textCardAreas}>Envolve questões como aposentadoria, pensão por morte, auxílio-doença e auxílio-maternidade. Tem como objetivo garantir a proteção social aos trabalhadores e seus dependentes, proporcionando-lhes segurança financeira em situações de invalidez, idade avançada, doença ou morte. É regulado por leis e normas específicas que visam assegurar o acesso justo e equitativo aos benefícios previdenciários.</p>
-                </div>
-              </motion.div>
-            )}
-          </VisibilitySensor>
-          <VisibilitySensor partialVisibility onChange={onVisibilityChange}>
-            {({ isVisible }) => (
-              <motion.div
-                style={{ zIndex: "999" }}
-                animate={isAnimated || initialAnimationCompleted ? "visible" : "hidden"}
-                variants={animationLeft}
-                transition={{ duration: 0.9 }}
-              >
-                <div className={styles.contentCardAreas}>
-                  <h2 className={styles.titleCardAreas}>PREVIDENCIÁRIO</h2>
-                  <p className={styles.textCardAreas}>Envolve questões como aposentadoria, pensão por morte, auxílio-doença e auxílio-maternidade. Tem como objetivo garantir a proteção social aos trabalhadores e seus dependentes, proporcionando-lhes segurança financeira em situações de invalidez, idade avançada, doença ou morte. É regulado por leis e normas específicas que visam assegurar o acesso justo e equitativo aos benefícios previdenciários.</p>
-                </div>
-              </motion.div>
-            )}
-          </VisibilitySensor>
-          <VisibilitySensor partialVisibility onChange={onVisibilityChange}>
-            {({ isVisible }) => (
-              <motion.div
-                style={{ zIndex: "999" }}
-                animate={isAnimated || initialAnimationCompleted ? "visible" : "hidden"}
-                variants={animationLeft}
-                transition={{ duration: 0.9 }}
-              >
-                <div className={styles.contentCardAreas}>
-                  <h2 className={styles.titleCardAreas}>PREVIDENCIÁRIO</h2>
-                  <p className={styles.textCardAreas}>Envolve questões como aposentadoria, pensão por morte, auxílio-doença e auxílio-maternidade. Tem como objetivo garantir a proteção social aos trabalhadores e seus dependentes, proporcionando-lhes segurança financeira em situações de invalidez, idade avançada, doença ou morte. É regulado por leis e normas específicas que visam assegurar o acesso justo e equitativo aos benefícios previdenciários.</p>
+                  <h2 className={styles.titleCardAreas}>Trabalhista</h2>
+                  <p className={styles.textCardAreas}>
+                    Envolve questões como aposentadoria, pensão por morte,
+                    auxílio-doença e auxílio-maternidade. Tem como objetivo
+                    garantir a proteção social aos trabalhadores e seus
+                    dependentes, proporcionando-lhes segurança financeira em
+                    situações de invalidez, idade avançada, doença ou morte. É
+                    regulado por leis e normas específicas que visam assegurar o
+                    acesso justo e equitativo aos benefícios previdenciários.
+                  </p>
                 </div>
               </motion.div>
             )}
           </VisibilitySensor>
         </div>
-        <a target='_blank' title='Link apra whatsApp' href="https://api.whatsapp.com/send?phone=5551997357824" className={styles.btnScheduling}>FAZER AGENDAMENTO</a>
+        <a
+          target="_blank"
+          title="Link apra whatsApp"
+          href="https://api.whatsapp.com/send?phone=5551997357824"
+          className={styles.btnScheduling}
+        >
+          FAZER AGENDAMENTO
+        </a>
       </Wrapper>
     </div>
   );
