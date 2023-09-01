@@ -1,149 +1,160 @@
-.containerContact{
-    width: 100%;
-    padding-block: 100px;
+.containerContact {
+  width: 100%;
+  padding-block: 100px;
 }
-.contentContact{
-    display: flex;
+.contentContact {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.divContactInf {
+  display: flex;
+  margin-inline: auto;
+  @media (max-width: 1280px) {
+    padding-inline: 40px;
+  }
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 25px;
+  @media (max-width: 920px) {
     flex-direction: column;
-    overflow: hidden;
+    gap: 15px;
+  }
 }
-.divContactInf{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    @media (max-width: 1280px) {
-        padding-inline: 40px;
-    }
+.titleContact {
+  font-family: "Overpass", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d4a55f;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 7px;
 }
-.contacts{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    @media (max-width: 920px) {
-        gap: 15px;
-    }
-}
-.logocontact{
-    @media (max-width: 1280px) {
-       width: 320px;
-    }
+.logocontact {
+  @media (max-width: 1280px) {
+    width: 320px;
+  }
 
-     @media (max-width: 920px) {
-        width: 250px;
-    }
+  @media (max-width: 920px) {
+    width: 250px;
+  }
 }
-.imgContact{
-    @media (max-width: 1280px) {
-        width: 400px;
-    }
-    @media (max-width: 920px) {
-        width: 300px;
-    }
+.imgContact {
+  @media (max-width: 1280px) {
+    width: 400px;
+  }
+  @media (max-width: 920px) {
+    width: 300px;
+  }
 }
 @media (max-width: 480px) {
-    .imgContact{
-        width: 100vw;
-    }
-    .logocontact{
-        width: 320px;
-    }
-    .divContactInf{
-        flex-direction: column;
-        align-items: center;
-        gap: 49px;
-    }
-    .containerContact{
-        padding-block: 40px;
-    }
-}
-.linkContact{
-    color: #494949;
-    font-size: 20px;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 600;
-    line-height: 25px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    cursor: pointer;
-    @media (max-width: 920px) {
-        font-size: 16px;
-    }
-}
-.containerform{
-    margin-inline: auto;
-    display: flex;
+  .imgContact {
+    width: 100vw;
+  }
+  .logocontact {
+    width: 320px;
+  }
+  .divContactInf {
     flex-direction: column;
-    width: 920px;
-    margin-top: 70px;
-    gap: 20px;
-    @media (max-width: 1080px) {
-        width: 640px;
-    }
-    
+    align-items: center;
+    gap: 49px;
+  }
+  .containerContact {
+    padding-block: 40px;
+  }
 }
-.containerNameEmail{
-    width: 100%;
-    display: flex;
-    gap: 20px;
-    
+.linkContact {
+  color: #494949;
+  font-size: 20px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  @media (max-width: 920px) {
+    font-size: 16px;
+  }
 }
-.inputMedium{
-    width: 100%;
+.containerform {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+  margin-top: 30px;
+  gap: 20px;
+  @media (max-width: 1080px) {
+    width: 640px;
+  }
 }
-.input{
-    height: 38px;
-    border-radius: 6px;
-    border: 1px solid #D4A55F;
-    background: #FFF;
-    padding-left: 5px;
+.containerNameEmail {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.inputMedium {
+  width: 100%;
+}
+.input {
+  height: 38px;
+  border-radius: 6px;
+  border: 1px solid #d4a55f;
+  background: #fff;
+  padding-left: 5px;
 }
 .input::placeholder {
-    color: #D4A55F;
+  color: #d4a55f;
 }
-.selectForm{
-    color: #D4A55F;
-    border: 1px solid #D4A55F;
-    height: 38px;
-    border-radius: 6px;
+.selectForm {
+  color: #d4a55f;
+  border: 1px solid #d4a55f;
+  height: 38px;
+  border-radius: 6px;
 }
-.selectForm:focus{
-    outline: none;
+.selectForm:focus {
+  outline: none;
 }
 .input:focus {
-    outline: none;
+  outline: none;
 }
-.option[value=""][disabled]{
-display: none;
+.option[value=""][disabled] {
+  display: none;
 }
-.btnSend{
-    
-    font-size: 20px;
-    width: 215px;
-    height: 50px;
-    border-radius: 8px;
-    border: 1px solid #00264C;
-    background: #00264C;
-    color: #fff;
-    margin-inline: auto;
-    margin-top: 20px;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 600;
-    line-height: 28px;
-    cursor: pointer;
+.btnSend {
+  font-size: 20px;
+  width: 215px;
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #00264c;
+  background: #00264c;
+  color: #fff;
+  margin-inline: auto;
+  margin-top: 20px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  cursor: pointer;
 }
-.btnSend:hover{
-    opacity: 0.8;
+.btnSend:hover {
+  opacity: 0.8;
 }
 @media (max-width: 480px) {
-    .containerform{
-        max-width: 340px;
-    }
-    .containerNameEmail{
-        flex-direction: column;
-        /* width: 331.5px; */
-    }
-    .inputMedium{
-        width: auto;
-    }
+  .containerform {
+    max-width: 340px;
+  }
+  .containerNameEmail {
+    flex-direction: column;
+    /* width: 331.5px; */
+  }
+  .inputMedium {
+    width: auto;
+  }
 }
