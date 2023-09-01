@@ -18,7 +18,7 @@ export default function Differential({}) {
         </p>
       </div>
       <div className={styles.cardDifferential}>
-        <h1 className={styles.emphasis}>+ 10 anos</h1>
+        <h1 className={styles.emphasis}>+ De 10 anos</h1>
         <h2 className={styles.titleCard}>
           EXPERIÊNCIA EM DIREITO
           <br />
@@ -30,14 +30,14 @@ export default function Differential({}) {
         </p>
       </div>
       <div className={styles.cardDifferential}>
-        <h1 className={styles.emphasis}>+ 5 mil</h1>
+        <h1 className={styles.emphasis}>+ De 5 mil </h1>
         <h2 className={styles.titleCard}>
-          CASOS
+          CLIENTES
           <br />
           ATENDIDOS
         </h2>
         <p className={styles.textCard}>
-          Com mais de 5.000 casos atendidos, nossa equipe jurídica possui ampla
+          Com mais de 5.000 clientes atendidos, nossa equipe jurídica possui ampla
           experiência.
         </p>
       </div>
