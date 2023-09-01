@@ -68,7 +68,7 @@ export default function Areas({ children }) {
                 transition={{ duration: 0.9 }}
               >
                 <div className={styles.contentCardAreas}>
-                  <h2 className={styles.titleCardAreas}>Trabalhista</h2>
+                  <h2 className={styles.titleCardAreas}>Trabalhista teste</h2>
                   <p className={styles.textCardAreas}>
                     Envolve questões como aposentadoria, pensão por morte,
                     auxílio-doença e auxílio-maternidade. Tem como objetivo
