@@ -97,7 +97,6 @@ export default function Contact({ children }) {
                   type="tel"
                   name="phone"
                   placeholder="(99) 9 9999-9999"
-                  value={phone}
                 />
               <input
                 alt="input para digitar o email"
