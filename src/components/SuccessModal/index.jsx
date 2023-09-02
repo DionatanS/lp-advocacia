@@ -7,7 +7,7 @@ const SuccessModal = ({ onClose }) => {
       <div className={styles.modalContent}>
         <h2 className={styles.titleModal}>Email enviado!</h2>
         <p className={styles.textModal}>Sua mensagem foi enviada com sucesso.</p>
-        <button className={styles.buttonModal} onClick={onClose}>OK</button>
+        {/* <button className={styles.buttonModal} onClick={onClose}>OK</button> */}
       </div>
     </div>
   );

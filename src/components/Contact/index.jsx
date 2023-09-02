@@ -21,13 +21,8 @@ export default function Contact({ children }) {
     }
   };
   const handleSubmit = async (e) => {
-    e.preventDefault();
     setShowSuccessModal(true);
-  };
-  const handleModalClose = () => {
-    setShowSuccessModal(false);
-    setPhone('');
-    window.scrollTo({ top: 0, behavior: 'smooth' }); 
+    setPhone(''); 
     if (formRef.current) {
       formRef.current.reset();
     }
@@ -159,7 +154,7 @@ export default function Contact({ children }) {
             <input
               type="hidden"
               name="_next"
-              value="https://aposentainss.com.br/"
+              value="aposentainss.com.br"
             />
             <button
               title="botão para enviar email para o advogado"
@@ -170,10 +165,7 @@ export default function Contact({ children }) {
             </button>
           </form>
           {showSuccessModal && (
-            <SuccessModal onClose={() => {
-              handleModalClose();
-              setShowSuccessModal(false);
-            }} />
+            <SuccessModal />
           )}
         </div>
       </Wrapper>
