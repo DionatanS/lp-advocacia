@@ -12,6 +12,7 @@ export default function Contact({ children }) {
     useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
   const formRef = useRef(null);
+  const [phone, setPhone] = useState('');
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible && !initialAnimationCompleted) {
@@ -25,6 +26,7 @@ export default function Contact({ children }) {
   };
   const handleModalClose = () => {
     setShowSuccessModal(false);
+    setPhone('');
     window.scrollTo({ top: 0, behavior: 'smooth' }); 
     if (formRef.current) {
       formRef.current.reset();
@@ -107,6 +109,8 @@ export default function Contact({ children }) {
                   type="tel"
                   name="phone"
                   placeholder="(99) 9 9999-9999"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                 />
               <input
                 alt="input para digitar o email"
