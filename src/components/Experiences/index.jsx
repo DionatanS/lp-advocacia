@@ -1,6 +1,6 @@
 import Acting from "../Acting";
 import Differential from "../Differential";
-import styles from "../Experiences/styles.module.css";
+import styles from "../Experiences/styles.module.scss";
 import Wrapper from "../Wrapper";
 export default function Experiences({ children }) {
   return (

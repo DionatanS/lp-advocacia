@@ -1,4 +1,4 @@
-import styles from "../Adress/styles.module.css";
+import styles from "../Adress/styles.module.scss";
 import LazyLoad from "react-lazyload";
 import Image from "next/image";
 import Wrapper from "../Wrapper";

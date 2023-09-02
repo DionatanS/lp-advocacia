@@ -1,4 +1,4 @@
-import styles from "../Footer/styles.module.css"
+import styles from "../Footer/styles.module.scss"
 export default function Footer({children}){
     return(        
         <div className={styles.containerFooter}>

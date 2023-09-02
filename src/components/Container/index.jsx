@@ -1,4 +1,4 @@
-import styles from "../Container/styles.module.css"
+import styles from "../Container/styles.module.scss"
 import Image from "next/image"
 export default function Container({children}){
     return(        

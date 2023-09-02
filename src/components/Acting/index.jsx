@@ -1,4 +1,4 @@
-import styles from "../Acting/styles.module.css"
+import styles from "../Acting/styles.module.scss"
 import Image from "next/image";
 import React, { useState } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';

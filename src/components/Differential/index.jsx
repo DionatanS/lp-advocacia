@@ -1,4 +1,4 @@
-import styles from "../Differential/styles.module.css";
+import styles from "../Differential/styles.module.scss";
 import React, { useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { motion, useAnimation } from "framer-motion";

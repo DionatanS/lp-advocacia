@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { motion } from "framer-motion";
-import styles from "../Areas/styles.module.css";
+import styles from "../Areas/styles.module.scss";
 import Wrapper from "../Wrapper";
 
 export default function Areas({ children }) {

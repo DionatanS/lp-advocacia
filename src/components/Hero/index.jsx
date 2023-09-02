@@ -1,4 +1,4 @@
-import styles from "../Hero/styles.module.css";
+import styles from "../Hero/styles.module.scss";
 import Image from "next/image";
 export default function Hero({ children }) {
   return (

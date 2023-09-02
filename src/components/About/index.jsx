@@ -1,4 +1,4 @@
-import styles from "../About/styles.module.css";
+import styles from "../About/styles.module.scss";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
 import React, { useState } from "react";

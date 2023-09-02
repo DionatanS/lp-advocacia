@@ -1,4 +1,4 @@
-import styles from "../Contact/styles.module.css";
+import styles from "../Contact/styles.module.scss";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
 import InputMask from 'react-input-mask';
