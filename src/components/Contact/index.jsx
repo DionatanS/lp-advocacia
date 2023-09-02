@@ -11,7 +11,6 @@ export default function Contact({ children }) {
   const [initialAnimationCompleted, setInitialAnimationCompleted] =
     useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
-  const [phone, setPhone] = useState('');
 
   const onVisibilityChange = (isVisible) => {
     if (isVisible && !initialAnimationCompleted) {
