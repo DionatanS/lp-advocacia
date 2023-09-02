@@ -2,7 +2,7 @@ import styles from "../Contact/styles.module.css";
 import Image from "next/image";
 import Wrapper from "../Wrapper";
 import InputMask from 'react-input-mask';
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import VisibilitySensor from "react-visibility-sensor";
 import { motion, useAnimation } from "framer-motion";
 import SuccessModal from "../SuccessModal";
@@ -11,7 +11,6 @@ export default function Contact({ children }) {
   const [initialAnimationCompleted, setInitialAnimationCompleted] =
     useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
-  const formRef = useRef(null);
   const [phone, setPhone] = useState('');
 
   const onVisibilityChange = (isVisible) => {
@@ -22,10 +21,6 @@ export default function Contact({ children }) {
   };
   const handleSubmit = async (e) => {
     setShowSuccessModal(true);
-    setPhone(''); 
-    if (formRef.current) {
-      formRef.current.reset();
-    }
   };
 
   const animationLeft = {
@@ -84,7 +79,6 @@ export default function Contact({ children }) {
         <div className={styles.contentContact}>
           <div className={styles.divContactInf}></div>
           <form
-            ref={formRef}
             action="https://formsubmit.co/joao.adv.civil@gmail.com"
             className={styles.containerform}
             method="POST"
@@ -105,7 +99,6 @@ export default function Contact({ children }) {
                   name="phone"
                   placeholder="(99) 9 9999-9999"
                   value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
                 />
               <input
                 alt="input para digitar o email"
@@ -154,7 +147,7 @@ export default function Contact({ children }) {
             <input
               type="hidden"
               name="_next"
-              value="aposentainss.com.br"
+              value="https://aposentainss.com.br"
             />
             <button
               title="botão para enviar email para o advogado"
